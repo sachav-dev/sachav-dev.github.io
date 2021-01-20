@@ -1,0 +1,47 @@
+/* Sélecteurs pour un menu épinglé.
+(Le menu reste fixe lorsque vous faites défiler la page. ) */
+
+
+/* 
+Palette de couleurs
+	#white
+	#rgb(255, 255, 255)
+    #black
+    #hsla(80, 90%, 40%, 0.5)
+    ##2196F3
+    #0b7dda
+
+Rythme
+    3em 
+    0.5em 
+    0.5em 
+    3em;
+    1px
+    3px
+*/
+
+.left-bunner {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 15%;
+    margin: -2.5em 0 0 0;
+    z-index: 5;
+    background: rgb(255, 255, 255);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border: solid hsla(80, 90%, 40%, 0.5);
+    border-right-color: rgba(133, 194, 10, 0.5);
+    border-right-style: solid;
+    border-right-width: medium;
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 3px black;
+    border-radius: 3em 0.5em 0.5em 3em;
+}
+
+*>.intro {
+    position: fixed;
+}
